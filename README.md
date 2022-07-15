@@ -13,9 +13,9 @@ Gere o docker-compose de uma forma que basta apenas rodarmos: docker-compose up 
 
 
 ## Build
-    ```$docker build -t cycle-node --no-cache . -f ./devops/Dockerfile```
+    $docker build -t cycle-node --no-cache . -f ./devops/Dockerfile
 
 ## Run 
     Na raiz do diretorio de repo
 
-    ```$docker-compose up --build ```
+    $docker-compose up --build
